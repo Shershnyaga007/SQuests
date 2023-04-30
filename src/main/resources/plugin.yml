@@ -1,0 +1,12 @@
+name: SQuests
+version: '1.0'
+depend:
+  - Citizens
+main: me.shershnyaga.squests.SQuests
+api-version: 1.16
+permissions:
+  me.shershnyaga.squests.spawn:
+    default: op
+commands:
+  squests:
+    aliases: [sq]

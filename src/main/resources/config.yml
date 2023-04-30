@@ -1,0 +1,17 @@
+Quests:
+  Petrovich1:
+    Name: "РОТ ШАТАЛ!!!!"
+    Description: "НЕТЪ"
+    Quest: "FIND GRASS_BLOCK RANDOM 10 20"
+    Reward: "ITEM GOLDEN_CARROT 10"
+  Petrovich2:
+    Name: ""
+    Description: ""
+    Quest: "VISIT TUNDRA"
+    Reward: "XP 1000 SILENT"
+
+NPC:
+  Petrovich:
+    Name: "Петрович"
+    Quests: ["Petrovich1", "Petrovich2"]
+    UpdateTime: 120 # secs
